@@ -8,3 +8,7 @@ title: Home
 ## About Me
 Click here to learn more → [About Me](about.md)
 [About Me](about.md)
+
+## Notebook
+Click here to learn more → [Notebook](notebook.md)
+[Notebook](notebook.md)
