@@ -10,5 +10,5 @@ Click here to learn more → [About Me](about.md)
 [About Me](about.md)
 
 ## Notebook
-Click here to learn more → [Notebook](notebook.md)
-[Notebook](notebook.md)
+Click here to learn more → [Notebook](Notebook.md)
+[Notebook](Notebook.md)
