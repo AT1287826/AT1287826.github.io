@@ -87,7 +87,7 @@
 |Method| A function that belongs to a class. | `void bark() {}` |||
 |Costructor| A special function used to set up a class when it’s created. | `Dog(this.name);` |||
 |Abstraction| Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |||
-|Override| Changing how a built-in or inherited function behaves. | `@override` |sander jump but override bc you want to gp higher||
+|Override| Changing how a built-in or inherited function behaves. | `@override` |standered jump but override bc you want to gp higher||
 |Void| A function that does not return a value. | `void printMessage() {}` |||
 
 
