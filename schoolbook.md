@@ -28,10 +28,7 @@
 
 
 
-
-
-
-[Code Definitions](#code_definitions)
+#code_definitions
 
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|-------------------------|-------------------|-------------|
