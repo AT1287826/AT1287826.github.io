@@ -62,20 +62,20 @@
 |Container| A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
 |Text| A widget to display text on the screen. | `Text('Hello')` |  |  |
 |Image.network| A widget to show an image using a link from the internet. | `Image.network('https://...')` |  |  |
-|ElevatedButton| A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
+|ElevatedButton| A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` | any button |  |
 |onPressed| The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
-|      | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  |  |
-|      | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
-|      | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
-|      | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
-|      | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
-|      | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
-|      | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
-|      | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
-|      | Required in every widget class to describe what to show. | `build` |  |  |
-|      | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
-|      | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
-|      | A keyword that means the value won't change and is set once. | `const` |  |  |
+|StatelessWidget| A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` | home screens |  |
+|StatefulWidget| A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
+|Navigator| Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` | going to whatever pages|  |
+|Padding| Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |anything you need centered|  |
+|Center| Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
+|Wrap| Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
+|override| This marks a method as one that’s replacing a method in a parent class. | `@override` |superspeed |  |
+|Build| The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
+|Build| Required in every widget class to describe what to show. | `build` ||  |
+|BuildContext| A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |you have your scheduel and you go from one class to another|  |
+|super.key| A keyword used to pass a value to the parent widget. | `super.key` |  |  |
+|const| A keyword that means the value won't change and is set once. | `const` |  |  |
 
 
 
