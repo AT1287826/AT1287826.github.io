@@ -32,10 +32,10 @@
 
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|-------------------------|-------------------|-------------|
-|vaeiable | A named container used to store a value that may change. | `var x = 5;` |score| mn.dart, String title: "TASPortfolio',|
-|      | A fixed value that cannot change once set. | `const PI = 3.14;` |  |main.dart,const MyPortfolioApp((super.key));|
+|vaeiable | A named container used to store a value that may change. | `var x = 5;` |score| main.dart, String title: "TAS Portfolio',|
+|      | A fixed value that cannot change once set. | `const PI = 3.14;` |  |main.dart, const MyPortfolioApp((super.key));|
 |      | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |main.dart, bool. debugShowCheckedModeBanner:false,|
-|      | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
+|      | A sequence of characters used to represent words or text. | `"Hello World"` |  |home.dart, const Text 'HI EVERYONE,\nWelcome to the',|
 |      | Whole number values. | `int age = 16;` |  |  |
 |      | Number values with decimals. | `double age = 16.2;` |  |  |
 |      | A value that can be true or false. | `bool isLoggedIn = false;` |  |  |
