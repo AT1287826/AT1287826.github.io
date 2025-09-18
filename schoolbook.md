@@ -3,9 +3,9 @@
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
 |------|----------------------------|----------------|-------------------|-------------|
 |      | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |  |in main.dart => runApp(MyPortfolioApp()):|
-|      | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |  |
-|      | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |return materialApp(debugshowcheckedModeBanner:false, title:'TSA Portfolio', and more|
-|      | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |in showcase.dart, return Scaffoid(body: Column(mainAxisAligment: MainAxisAligment.start.children:[|
+|      | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  |return materialApp(debugshowcheckedModeBanner:false, title:'TSA Portfolio', and more|
+|      | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |in showcase.dart, return Scaffoid(body: Column(mainAxisAligment: MainAxisAligment.start.children:[|
+|      | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  | |
 |      | A widget that shows things side-by-side. | `Row(...)` |  |  |
 |      | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
 |      | A widget to display text on the screen. | `Text('Hello')` |  |  |
